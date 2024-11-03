@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/birthday2"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvBillHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tvCustomerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customer Name: "
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number: "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/tvEventPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Place: "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/tvEventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Date: "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:id="@+id/tvEventCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Decoration Cost: "
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textColor="@color/gold"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

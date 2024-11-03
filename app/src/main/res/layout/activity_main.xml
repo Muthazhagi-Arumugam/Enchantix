@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/backg2"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ml"
+        android:src="@drawable/logo"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="5dp"
+        android:text="          Enchantix \n\n  Make your Moment\n           Colorful"
+        android:textColor="@color/darkpink"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:textColorHint="@color/violet"
+        android:textColorHighlight="@color/darkpink"
+        android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gold"
+        android:text="Signup"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

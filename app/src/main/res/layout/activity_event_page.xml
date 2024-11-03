@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/engagement3"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/eventImage"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/eventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Name"
+            android:textColor="@color/peach"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/eventDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event details go here"
+            android:textSize="16sp"
+            android:textColor="@color/peach"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/eventCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost: ₹50000"
+            android:textSize="18sp"
+            android:textColor="#FF0000"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Booking Form -->
+        <EditText
+            android:id="@+id/etCustomerName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/peach"
+            android:hint="Your Name"/>
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/peach"
+            android:hint="Phone Number"/>
+
+        <EditText
+            android:id="@+id/etEventPlace"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/peach"
+            android:hint="Event Place"/>
+
+        <EditText
+            android:id="@+id/etEventDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/peach"
+            android:hint="Event Date"/>
+
+        <Button
+            android:id="@+id/btnConfirmBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Booking"
+            android:textColor="@color/gold"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>
